@@ -774,6 +774,9 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Setting vendor SPL
+VENDOR_SECURITY_PATCH := "2020-10-05"
+
 # Shared java libs
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
