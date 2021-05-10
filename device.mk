@@ -756,3 +756,7 @@ PRODUCT_PACKAGES += \
 # Shared java libs
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces
