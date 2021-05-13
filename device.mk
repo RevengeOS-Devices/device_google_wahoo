@@ -803,6 +803,10 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libwifi-hal:64
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+
 # Add missing vendor props
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
