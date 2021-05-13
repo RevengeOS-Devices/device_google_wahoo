@@ -755,6 +755,10 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge:32 \
     libtinyxml
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+
 # Enable missing props
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.opa.eligible_device=true
