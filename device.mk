@@ -331,7 +331,7 @@ PRODUCT_COPY_FILES += \
 
 #ipacm configuration files
 PRODUCT_COPY_FILES += \
-    hardware/qcom/data/ipacfg-mgr/ipacm/src/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml
+    hardware/qcom/data/ipacfg-mgr/msm8998/ipacm/src/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml
 
 PRODUCT_PACKAGES += \
     hwcomposer.msm8998 \
@@ -619,7 +619,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.ssr.restart_level=modem,slpi,adsp
 
 # Setup Dalvik VM configs
-$(call inherit-product, vendor/revengeos/config/phone-xhdpi-4096-dalvik-heap.mk)
+#$(call inherit-product, vendor/revengeos/config/phone-xhdpi-4096-dalvik-heap.mk)
 
 PRODUCT_COPY_FILES += \
     device/google/wahoo/fstab.hardware:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.$(PRODUCT_HARDWARE)
