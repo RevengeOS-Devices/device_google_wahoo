@@ -418,4 +418,8 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">75</integer>
 
+    <!-- List of comma separated package names for which we the system will not show crash, ANR,
+         etc. dialogs. -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.google.android.euicc</string>
+
 </resources>
